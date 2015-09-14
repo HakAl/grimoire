@@ -35,8 +35,8 @@ var Grimoire = function (scriptsRoot, scriptsExtension) {
         }
     };
 
-    this.addAndLoad = function (script, success, failure) {
+    this.addAndLoad = function (script, success) {
         this.add(script);
-        this.load(success, failure);
+        this.load(success);
     }
 };
